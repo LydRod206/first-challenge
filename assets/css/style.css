@@ -11,28 +11,31 @@
   }
   
   .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
   }
   
   .header h1 {
+    display: inline-block;
     font-size: 48px;
   }
   
   .header h1 .seo {
     color: #d9dcd6;
   }
-  
-  .header ul {
-    display: flex;
+  .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+  .header div ul {
     list-style-type: none;
   }
   
-  .header ul li {
+  .header div ul li {
     margin-left: 25px;
   }
   
@@ -55,7 +58,7 @@
   }
   
   .content {
-    display: flex;
+    display: inline-block;
     width: 75%;
   }
   
@@ -75,7 +78,7 @@
     text-align: center;
   }
   
-  .benefit img {
+  .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -106,6 +109,7 @@
   
   .footer {
     padding: 30px;
+    clear: both;
     text-align: center;
   }
   .footer h2 {
